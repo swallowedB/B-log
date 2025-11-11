@@ -6,12 +6,10 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "jest",
-
     "dev:content": "velite --watch",
     "build:content": "velite --clean",
     "dev:next": "next dev",
     "build:next": "next build",
-    
     "dev": "run-p dev:content dev:next",
     "build": "run-s build:content build:next",
     "start": "next start"
@@ -37,6 +35,7 @@
     "npm-run-all": "^4.1.5",
     "tailwindcss": "^4",
     "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
     "typescript": "^5",
     "velite": "^0.3.0"
   }
