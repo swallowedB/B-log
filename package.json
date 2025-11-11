@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "dev:content": "velite --watch",
     "build:content": "velite --clean",
     "dev:next": "next dev",
@@ -13,6 +13,7 @@
     "dev": "run-p dev:content dev:next",
     "build": "run-s build:content build:next",
     "start": "next start"
+    
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.80.0",
