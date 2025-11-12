@@ -1,0 +1,23 @@
+name: 🧪 Test
+description: 테스트 추가/보강용 이슈
+title: "test: [기능명]"
+labels: ["type:test", "tdd", "prio:medium"]
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: 테스트 범위
+      placeholder: "예: filter.ts 유닛 테스트 추가 / LikeButton DB Mock"
+  - type: textarea
+    id: cases
+    attributes:
+      label: 테스트 케이스
+      placeholder: "- 빈 배열 입력 시 '게시글이 없습니다' 렌더링\n- 클릭 시 좋아요 카운트 증가"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 완료 체크리스트
+      options:
+        - label: 실패 테스트 작성(Red)
+        - label: 통과(Green)
+        - label: 커버리지 확인
