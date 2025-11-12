@@ -1,0 +1,24 @@
+home:
+  - 'app/(home)/**'
+post:
+  - 'app/post/**'
+category:
+  - 'app/(category)/**'
+dock:
+  - 'components/dock/**'
+pagination:
+  - 'components/pagination/**'
+widget:
+  - 'components/widgets/**'
+series:
+  - 'components/series/**'
+comments:
+  - 'components/comments/**'
+storybook:
+  - 'stories/**'
+infra:
+  - '.github/**'
+test:
+  - 'tests/**'
+util:
+  - 'lib/**'
