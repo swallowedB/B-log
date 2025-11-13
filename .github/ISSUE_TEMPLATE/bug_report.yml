@@ -1,0 +1,20 @@
+name: 🐛 Bug
+description: 버그 리포트용 템플릿
+title: "fix: [영역] 버그 설명"
+labels: ["type:bug", "prio:high"]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: 버그 설명
+      placeholder: "예: 태그 클릭 시 포스트가 갱신되지 않음"
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 단계
+      placeholder: "1. 홈 진입\n2. 'next' 태그 클릭\n3. 포스트 리스트 변경 없음"
+  - type: input
+    id: expected
+    attributes:
+      label: 기대 동작
+      placeholder: "포스트가 해당 태그로 필터링되어야 함"

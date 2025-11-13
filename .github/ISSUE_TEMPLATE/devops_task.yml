@@ -1,0 +1,18 @@
+name: 🔧 DevOps/CI
+description: 빌드/배포/자동화 관련 태스크
+title: "ci: [작업명]"
+labels: ["type:devops", "prio:low"]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: 작업 설명
+      placeholder: "예: GitHub Actions에서 pnpm test 자동 실행 설정"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 완료 체크리스트
+      options:
+        - label: 워크플로우 파일 추가
+        - label: 테스트 통과 확인
+        - label: 배포 성공 확인

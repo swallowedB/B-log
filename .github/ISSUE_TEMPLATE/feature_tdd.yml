@@ -1,0 +1,25 @@
+name: ✨ Feature (TDD)
+description: 새로운 기능 개발을 위한 간단한 템플릿
+title: "feat: [기능명]"
+labels: ["type:feature", "tdd", "prio:high"]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: 기능 설명
+      placeholder: "예: 태그 클릭 시 해당 태그의 포스트만 필터링된다."
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: 테스트 포인트
+      placeholder: "예: 클릭 시 scrollIntoView 호출 / aria-pressed=true 확인"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 완료 체크리스트
+      options:
+        - label: 실패 테스트 작성(Red)
+        - label: 최소 구현(Green)
+        - label: 리팩터(Refactor)

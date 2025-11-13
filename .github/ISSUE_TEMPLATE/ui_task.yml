@@ -1,0 +1,18 @@
+name: 🎨 UI/Publishing
+description: 퍼블리싱/스타일 관련 작업
+title: "ui: [컴포넌트명]"
+labels: ["type:ui", "prio:medium"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 작업 목표
+      placeholder: "예: PostCard hover 애니메이션 / 다크모드 대비 조정"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 완료 체크리스트
+      options:
+        - label: 반응형 대응
+        - label: 접근성(명도/포커스) 확인
+        - label: 시각 확인(스크린샷 첨부)
