@@ -1,7 +1,7 @@
 name: 🎨 UI/Publishing
 description: 퍼블리싱/스타일 관련 작업
 title: "ui: [컴포넌트명]"
-labels: ["type:ui", "prio:medium"]
+labels: ["style"]
 body:
   - type: textarea
     id: goal

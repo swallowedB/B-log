@@ -1,7 +1,7 @@
 name: 🐛 Bug
 description: 버그 리포트용 템플릿
-title: "fix: [영역] 버그 설명"
-labels: ["type:bug", "prio:high"]
+title: "fix: [버그 설명]"
+labels: ["chore"]
 body:
   - type: textarea
     id: desc
