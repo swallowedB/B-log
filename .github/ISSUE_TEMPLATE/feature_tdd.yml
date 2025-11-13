@@ -1,7 +1,7 @@
 name: ✨ Feature (TDD)
 description: 새로운 기능 개발을 위한 간단한 템플릿
 title: "feat: [기능명]"
-labels: ["type:feature", "tdd", "prio:high"]
+labels: ["feat"]
 body:
   - type: textarea
     id: desc
