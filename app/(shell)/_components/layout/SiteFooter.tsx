@@ -8,7 +8,7 @@ export default function SiteFooter() {
         Logo
       </Link>
       <p>© {new Date().getFullYear()} CHOI BOA · All Rights Reserved</p>
-      <a href="https://github.com/swallowedB" target="_blank" rel="noreferrer" className="flex gap-2 items-center">
+      <a href="https://github.com/swallowedB" target="_blank" rel="noreferrer" className="flex gap-2 items-center" aria-label="깃허브로 이동">
         <FaGithub />
         <span>@swallowedB</span>
       </a>
