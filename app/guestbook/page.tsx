@@ -1,6 +1,6 @@
 
-export default function page() {
+export default function GuestbookPage() {
   return (
-    <div>page</div>
+    <div>GuestbookPage</div>
   )
 }
